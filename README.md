@@ -1,8 +1,8 @@
 # CorpusBrain++: A Continual Generative Pre-Training Framework for Knowledge-Intensive Language Tasks
 
-![illustration](.\assets\illustration.png)
+![illustration](./assets/illustration.png)
 
-![model](.\assets\model.png)
+![model](./assets/model.png)
 
 ## Data construction
 
