@@ -1,0 +1,1322 @@
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |     9.26    |  13.94   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 3.11 |    3.11   |  3.11  |    44.63    |  25.28   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.30 |    0.30   |  0.30  |    49.74    |  55.38   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.53 |    0.53   |  0.53  |    59.87    |  64.96   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session1/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    43.11    |  64.52   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session1/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    85.19    |  91.07   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session1/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    97.84    |  98.83   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session1/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    83.24    |  88.95   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |     4.65    |  11.05   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 4.04 |    4.04   |  4.04  |    41.44    |  23.18   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.34 |    0.34   |  0.34  |    25.93    |  27.44   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session1/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.17 |    0.17   |  0.17  |    48.58    |  43.45   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session1/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    39.39    |  56.52   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session1/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    77.14    |  84.69   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session1/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    96.03    |  98.30   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session1/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    78.07    |  83.95   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |     8.86    |  13.06   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 3.31 |    3.31   |  3.31  |    45.24    |  24.92   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.22 |    0.22   |  0.22  |    48.56    |  55.09   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.49 |    0.49   |  0.49  |    59.34    |  64.41   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session2/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    44.13    |  63.51   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session2/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    84.02    |  90.40   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session2/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    98.20    |  99.06   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session2/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    82.16    |  88.77   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |     4.65    |  11.82   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 4.45 |    4.45   |  4.45  |    43.53    |  23.72   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.67 |    0.67   |  0.67  |    26.26    |  27.61   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.17 |    0.17   |  0.17  |    48.75    |  42.65   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session2/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    39.13    |  57.80   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session2/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    78.09    |  85.88   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session2/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    97.45    |  99.15   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session2/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    77.46    |  83.81   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |     7.54    |   7.54   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 3.71 |    3.71   |  3.71  |    43.65    |  22.16   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    31.20    |  30.45   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session2/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.14 |    0.14   |  0.14  |    48.63    |  44.24   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session2/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |     7.63    |  16.79   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session2/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    80.64    |  81.89   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session2/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    96.83    |  98.68   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session2/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.20 |    0.20   |  0.20  |    74.21    |  80.13   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |     8.72    |  12.80   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 3.61 |    3.61   |  3.61  |    44.93    |  24.17   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.30 |    0.30   |  0.30  |    47.38    |  54.06   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.45 |    0.45   |  0.45  |    58.04    |  62.95   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session3/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    42.55    |  61.66   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session3/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    82.92    |  89.91   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    98.25    |  99.06   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.03 |    0.03   |  0.03  |    81.85    |  88.77   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |     5.23    |  11.24   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 4.58 |    4.58   |  4.58  |    43.26    |  23.58   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.34 |    0.34   |  0.34  |    26.26    |  25.73   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.33 |    0.33   |  0.33  |    48.58    |  42.58   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session3/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    40.15    |  57.03   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session3/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    77.86    |  83.94   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    97.45    |  99.15   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    77.46    |  83.54   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |     6.03    |   7.04   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 3.83 |    3.83   |  3.83  |    43.17    |  21.68   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    27.86    |  30.08   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.14 |    0.14   |  0.14  |    48.63    |  43.33   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session3/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |     7.63    |  15.27   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session3/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    81.70    |  82.03   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    96.83    |  98.68   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.20 |    0.20   |  0.20  |    73.81    |  79.54   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |     6.47    |   7.21   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 3.34 |    3.34   |  3.34  |    40.72    |  20.44   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.51 |    0.51   |  0.51  |    29.80    |  26.03   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session3/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.28 |    0.28   |  0.28  |    50.71    |  43.97   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session3/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    19.60    |  34.67   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session3/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    69.24    |  73.32   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    96.88    |  98.32   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session3/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    73.78    |  78.34   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |     8.59    |  11.59   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 3.51 |    3.51   |  3.51  |    44.33    |  23.47   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.30 |    0.30   |  0.30  |    45.53    |  52.55   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.45 |    0.45   |  0.45  |    55.39    |  61.22   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session4/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    42.51    |  61.75   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session4/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    81.38    |  89.31   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.00 |    0.00   |  0.00  |    98.52    |  99.24   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q0   | 0.03 |    0.03   |  0.03  |    81.15    |  88.72   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |     5.23    |  12.11   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 4.31 |    4.31   |  4.31  |    42.92    |  23.18   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.34 |    0.34   |  0.34  |    25.25    |  24.24   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.33 |    0.33   |  0.33  |    48.58    |  41.71   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session4/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    39.13    |  56.78   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session4/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    77.79    |  83.10   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    96.60    |  98.30   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q1   | 0.00 |    0.00   |  0.00  |    75.61    |  82.51   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |     6.03    |   6.78   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 4.19 |    4.19   |  4.19  |    42.75    |  21.56   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    26.74    |  29.25   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.14 |    0.14   |  0.14  |    47.68    |  42.14   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session4/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |     7.63    |  15.27   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session4/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    81.29    |  81.34   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.00 |    0.00   |  0.00  |    97.89    |  98.94   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q2   | 0.20 |    0.20   |  0.20  |    72.62    |  79.40   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |     6.47    |   6.88   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 3.65 |    3.65   |  3.65  |    40.20    |  20.02   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.51 |    0.51   |  0.51  |    27.78    |  25.27   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.28 |    0.28   |  0.28  |    48.16    |  42.46   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session4/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    20.60    |  34.67   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session4/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    68.68    |  73.06   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    96.64    |  98.32   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q3   | 0.00 |    0.00   |  0.00  |    73.60    |  77.94   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/eli5-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/eli5-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 0.00 |    0.00   |  0.00  |     2.11    |   2.81   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:eli5-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/hotpotqa-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/hotpotqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 3.74 |    3.74   |  3.74  |    40.47    |  23.08   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:hotpotqa-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/nq-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/nq-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 0.00 |    0.00   |  0.00  |    23.84    |  23.17   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:nq-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/qa/qa-session4/qa'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/triviaqa-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/triviaqa-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load qa
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 0.35 |    0.35   |  0.35  |    53.42    |  43.66   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:triviaqa-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/dlg/dlg-session4/dlg'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wow-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wow-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load dlg
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 0.00 |    0.00   |  0.00  |    32.16    |  41.52   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wow-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/fc/fc-session4/fc'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/fever-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/fever-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load fc
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 0.00 |    0.00   |  0.00  |    71.98    |  74.05   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:fever-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+model:hf-R04D0 data:wned-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/structured_zeroshot-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/structured_zeroshot-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 0.00 |    0.00   |  0.00  |    97.13    |  98.28   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:structured_zeroshot-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/sf/sf-session4/sf'], batch_size=16, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/trex-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/trex-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load sf
++---------+------+-----------+--------+-------------+----------+
+| Dataset |  F1  | Precision | Recall | R-precision | Recall@5 |
++---------+------+-----------+--------+-------------+----------+
+|    Q4   | 0.35 |    0.35   |  0.35  |    66.67    |  71.85   |
++---------+------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:trex-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 76.78 |   76.78   | 76.78  |    76.78    |  85.11   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 52.41 |   52.41   | 52.41  |    52.41    |  63.92   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 67.93 |   67.93   | 67.93  |    67.93    |  82.89   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 49.37 |   49.37   | 49.37  |    49.37    |  61.84   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 36.20 |   36.20   | 36.20  |    36.20    |  47.70   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session1/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-1.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 59.72 |   59.72   | 59.72  |    59.72    |  78.06   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:1 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 76.29 |   76.29   | 76.29  |    76.29    |  85.11   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 52.94 |   52.94   | 52.94  |    52.94    |  65.39   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 69.98 |   69.98   | 69.98  |    69.98    |  84.11   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 51.18 |   51.18   | 51.18  |    51.18    |  64.74   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 36.96 |   36.96   | 36.96  |    36.96    |  50.00   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 64.17 |   64.17   | 64.17  |    64.17    |  81.11   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 49.28 |   49.28   | 49.28  |    49.28    |  62.20   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 38.48 |   38.48   | 38.48  |    38.48    |  50.43   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session2/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-2.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 62.05 |   62.05   | 62.05  |    62.05    |  79.82   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 2 time:2 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 76.50 |   76.50   | 76.50  |    76.50    |  84.93   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 53.27 |   53.27   | 53.27  |    53.27    |  65.54   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 71.20 |   71.20   | 71.20  |    71.20    |  85.09   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 52.80 |   52.80   | 52.80  |    52.80    |  66.37   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 39.26 |   39.26   | 39.26  |    39.26    |  51.23   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 64.17 |   64.17   | 64.17  |    64.17    |  82.22   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 48.80 |   48.80   | 48.80  |    48.80    |  64.11   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 39.35 |   39.35   | 39.35  |    39.35    |  51.30   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 63.86 |   63.86   | 63.86  |    63.86    |  80.42   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 2 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q3   | 58.05 |   58.05   | 58.05  |    58.05    |  68.48   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q3   | 39.83 |   39.83   | 39.83  |    39.83    |  56.69   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session3/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-3.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q3   | 65.62 |   65.62   | 65.62  |    65.62    |  80.21   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 3 time:3 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 76.01 |   76.01   | 76.01  |    76.01    |  85.00   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 53.09 |   53.09   | 53.09  |    53.09    |  65.84   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q0.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q0   | 71.73 |   71.73   | 71.73  |    71.73    |  85.48   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 0 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 52.80 |   52.80   | 52.80  |    52.80    |  67.09   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 39.57 |   39.57   | 39.57  |    39.57    |  51.07   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q1.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q1   | 64.17 |   64.17   | 64.17  |    64.17    |  81.94   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 1 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 50.00 |   50.00   | 50.00  |    50.00    |  65.79   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 40.87 |   40.87   | 40.87  |    40.87    |  52.61   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q2.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q2   | 66.57 |   66.57   | 66.57  |    66.57    |  80.72   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 2 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q3   | 59.41 |   59.41   | 59.41  |    59.41    |  68.71   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q3   | 40.83 |   40.83   | 40.83  |    40.83    |  59.01   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q3.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q3   | 66.67 |   66.67   | 66.67  |    66.67    |  81.60   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 3 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/aidayago2-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/aidayago2-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q4   | 50.86 |   50.86   | 50.86  |    50.86    |  63.62   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:aidayago2-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/cweb-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/cweb-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q4   | 39.72 |   39.72   | 39.72  |    39.72    |  50.10   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:cweb-dev-kilt test: 4 time:4 finished
+Namespace(adapter_path_list=['adapters/el/el-session4/el'], batch_size=8, beams=10, candidates=False, checkpoint_file='checkpoint_best.pt', device='cuda:0', free_generation=False, id_title=None, input_path='datasets/kilt++-test/wned-dev-kilt/Q4.jsonl', loglevel=30, max_len_a=384, max_len_b=15, model_path='models/hf-R04D0', output_path='predictions/wned-dev-kilt.jsonl', test=False, trie='trie/D0-4.pkl')
+load el
++---------+-------+-----------+--------+-------------+----------+
+| Dataset |   F1  | Precision | Recall | R-precision | Recall@5 |
++---------+-------+-----------+--------+-------------+----------+
+|    Q4   | 67.03 |   67.03   | 67.03  |    67.03    |  79.67   |
++---------+-------+-----------+--------+-------------+----------+
+model:hf-R04D0 data:wned-dev-kilt test: 4 time:4 finished
