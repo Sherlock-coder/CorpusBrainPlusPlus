@@ -63,10 +63,10 @@ python scripts/eval_all.sh
 ## Citation
 
 ```
-@article{li2024matching,
-  title={From Matching to Generation: A Survey on Generative Information 	    Retrieval},
-  author={Li, Xiaoxi and Jin, Jiajie and Zhou, Yujia and Zhang, Yuyao and Zhang, Peitian and Zhu, Yutao and Dou, Zhicheng},
-  journal={arXiv preprint arXiv:2404.14851},
+@article{guo2024corpusbrain++,
+  title={CorpusBrain++: A Continual Generative Pre-Training Framework for Knowledge-Intensive Language Tasks},
+  author={Guo, Jiafeng and Zhou, Changjiang and Zhang, Ruqing and Chen, Jiangui and de Rijke, Maarten and Fan, Yixing and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2402.16767},
   year={2024}
 }
 ```
