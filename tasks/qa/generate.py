@@ -47,19 +47,7 @@ if __name__ == "__main__":
 
     num_pseudo_queries = 3
 
-    # id 16
-    # with jsonlines.open(source) as reader:
-    #     with jsonlines.open(target, 'w') as writer:
-    #         for item in tqdm(reader):
-    #             pairs = iss(item, 1)
-    #             for pair in pairs:
-    #                 new = {}
-    #                 for pair in pairs:
-    #                     new['source'] = random.choice(words) + ' ' + item['wikipedia_title'] + ' ' + split_and_select(pair['source'], 10) + ' ?'
-    #                     new['target'] = pair['target']
-    #                     writer.write(new)
 
-    # id 17
     with jsonlines.open(source) as reader:
         with jsonlines.open(target, 'w') as writer:
             for item in tqdm(reader):
